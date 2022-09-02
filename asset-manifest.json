@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.a0cb8361.css",
-    "main.js": "./static/js/main.f6836dde.js",
+    "main.css": "./static/css/main.719d2884.css",
+    "main.js": "./static/js/main.7a58231f.js",
     "static/js/489.cac77ca8.chunk.js": "./static/js/489.cac77ca8.chunk.js",
     "static/js/608.66ae3e0d.chunk.js": "./static/js/608.66ae3e0d.chunk.js",
     "static/js/787.8bf998a9.chunk.js": "./static/js/787.8bf998a9.chunk.js",
@@ -11,15 +11,19 @@
     "static/media/RobotoSlab_Light.ttf": "./static/media/RobotoSlab_Light.6d68e46320e3d0f97a14.ttf",
     "static/media/RobotoSlab_Regular.ttf": "./static/media/RobotoSlab_Regular.7ce86de3a11228c75d5e.ttf",
     "static/media/RobotoSlab_Thin.ttf": "./static/media/RobotoSlab_Thin.ac12d323dca67204ba2e.ttf",
+    "static/media/faq-bg-deco.png": "./static/media/faq-bg-deco.a78d053195d40b61dec8.png",
+    "static/media/Ellipse.png": "./static/media/Ellipse.5fea6bca33c1983c9eda.png",
+    "static/media/TrovasRegular-rgGOy.otf": "./static/media/TrovasRegular-rgGOy.ab1725ca5a0685651fd4.otf",
+    "static/media/background_centr.png": "./static/media/background_centr.bc4fa5abf064a36bd069.png",
     "index.html": "./index.html",
-    "main.a0cb8361.css.map": "./static/css/main.a0cb8361.css.map",
-    "main.f6836dde.js.map": "./static/js/main.f6836dde.js.map",
+    "main.719d2884.css.map": "./static/css/main.719d2884.css.map",
+    "main.7a58231f.js.map": "./static/js/main.7a58231f.js.map",
     "489.cac77ca8.chunk.js.map": "./static/js/489.cac77ca8.chunk.js.map",
     "608.66ae3e0d.chunk.js.map": "./static/js/608.66ae3e0d.chunk.js.map",
     "787.8bf998a9.chunk.js.map": "./static/js/787.8bf998a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0cb8361.css",
-    "static/js/main.f6836dde.js"
+    "static/css/main.719d2884.css",
+    "static/js/main.7a58231f.js"
   ]
 }
