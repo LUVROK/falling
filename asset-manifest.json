@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "./static/css/main.719d2884.css",
-    "main.js": "./static/js/main.7a58231f.js",
-    "static/js/489.cac77ca8.chunk.js": "./static/js/489.cac77ca8.chunk.js",
-    "static/js/608.66ae3e0d.chunk.js": "./static/js/608.66ae3e0d.chunk.js",
-    "static/js/787.8bf998a9.chunk.js": "./static/js/787.8bf998a9.chunk.js",
-    "static/media/photo-1504788363733-507549153474.png": "./static/media/photo-1504788363733-507549153474.64a4c8808fd4643d6910.png",
-    "static/media/644191_960b6.gif": "./static/media/644191_960b6.d190bb8a77fad498ab75.gif",
+    "main.css": "./static/css/main.0c183143.css",
+    "main.js": "./static/js/main.27a6b924.js",
+    "static/js/261.42f144a2.chunk.js": "./static/js/261.42f144a2.chunk.js",
+    "static/js/227.955e50ca.chunk.js": "./static/js/227.955e50ca.chunk.js",
+    "static/js/27.29c07a8b.chunk.js": "./static/js/27.29c07a8b.chunk.js",
+    "static/media/photo-1504788363733-507549153474.png": "./static/media/photo-1504788363733-507549153474.016257af06f308bc3778.png",
     "static/media/RobotoSlab_Bold.ttf": "./static/media/RobotoSlab_Bold.b4a6cff80bc429d3416d.ttf",
     "static/media/RobotoSlab_Light.ttf": "./static/media/RobotoSlab_Light.6d68e46320e3d0f97a14.ttf",
     "static/media/RobotoSlab_Regular.ttf": "./static/media/RobotoSlab_Regular.7ce86de3a11228c75d5e.ttf",
@@ -14,16 +13,15 @@
     "static/media/faq-bg-deco.png": "./static/media/faq-bg-deco.a78d053195d40b61dec8.png",
     "static/media/Ellipse.png": "./static/media/Ellipse.5fea6bca33c1983c9eda.png",
     "static/media/TrovasRegular-rgGOy.otf": "./static/media/TrovasRegular-rgGOy.ab1725ca5a0685651fd4.otf",
+    "static/media/leaves1.png": "./static/media/leaves1.9739fb0bf3a87843273d.png",
+    "static/media/leaves4.png": "./static/media/leaves4.0978d3f4815b810c760f.png",
+    "static/media/leaves3.png": "./static/media/leaves3.f29bdb3310cce98d559f.png",
+    "static/media/leaves2.png": "./static/media/leaves2.c7a0338318e31cc392fa.png",
     "static/media/background_centr.png": "./static/media/background_centr.bc4fa5abf064a36bd069.png",
-    "index.html": "./index.html",
-    "main.719d2884.css.map": "./static/css/main.719d2884.css.map",
-    "main.7a58231f.js.map": "./static/js/main.7a58231f.js.map",
-    "489.cac77ca8.chunk.js.map": "./static/js/489.cac77ca8.chunk.js.map",
-    "608.66ae3e0d.chunk.js.map": "./static/js/608.66ae3e0d.chunk.js.map",
-    "787.8bf998a9.chunk.js.map": "./static/js/787.8bf998a9.chunk.js.map"
+    "index.html": "./index.html"
   },
   "entrypoints": [
-    "static/css/main.719d2884.css",
-    "static/js/main.7a58231f.js"
+    "static/css/main.0c183143.css",
+    "static/js/main.27a6b924.js"
   ]
 }
