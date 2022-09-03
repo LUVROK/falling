@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.8a7aafd0.css",
-    "main.js": "./static/js/main.87501351.js",
+    "main.css": "./static/css/main.1ca1ccb8.css",
+    "main.js": "./static/js/main.1521c29d.js",
     "static/js/261.42f144a2.chunk.js": "./static/js/261.42f144a2.chunk.js",
     "static/js/227.955e50ca.chunk.js": "./static/js/227.955e50ca.chunk.js",
     "static/js/27.29c07a8b.chunk.js": "./static/js/27.29c07a8b.chunk.js",
@@ -11,6 +11,7 @@
     "static/media/RobotoSlab_Regular.ttf": "./static/media/RobotoSlab_Regular.7ce86de3a11228c75d5e.ttf",
     "static/media/RobotoSlab_Thin.ttf": "./static/media/RobotoSlab_Thin.ac12d323dca67204ba2e.ttf",
     "static/media/faq-bg-deco.png": "./static/media/faq-bg-deco.a78d053195d40b61dec8.png",
+    "static/media/Logo_Mockup_098.png": "./static/media/Logo_Mockup_098.700a312647e13817d784.png",
     "static/media/Ellipse.png": "./static/media/Ellipse.5fea6bca33c1983c9eda.png",
     "static/media/TrovasRegular-rgGOy.otf": "./static/media/TrovasRegular-rgGOy.ab1725ca5a0685651fd4.otf",
     "static/media/leaves1.png": "./static/media/leaves1.9739fb0bf3a87843273d.png",
@@ -21,7 +22,7 @@
     "index.html": "./index.html"
   },
   "entrypoints": [
-    "static/css/main.8a7aafd0.css",
-    "static/js/main.87501351.js"
+    "static/css/main.1ca1ccb8.css",
+    "static/js/main.1521c29d.js"
   ]
 }
