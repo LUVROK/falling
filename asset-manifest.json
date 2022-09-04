@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "./static/css/main.64c2a9b4.css",
-    "main.js": "./static/js/main.e64b3bf2.js",
+    "main.css": "./static/css/main.e3c09562.css",
+    "main.js": "./static/js/main.944ce275.js",
     "static/js/261.42f144a2.chunk.js": "./static/js/261.42f144a2.chunk.js",
     "static/js/227.955e50ca.chunk.js": "./static/js/227.955e50ca.chunk.js",
     "static/js/27.29c07a8b.chunk.js": "./static/js/27.29c07a8b.chunk.js",
-    "static/media/VJB-105_Main_1024x1024.png": "./static/media/VJB-105_Main_1024x1024.9b5eefe494a74be9a42a.png",
     "static/media/photo-1504788363733-507549153474.png": "./static/media/photo-1504788363733-507549153474.016257af06f308bc3778.png",
+    "static/media/VJB-105_Main_1024x1024.png": "./static/media/VJB-105_Main_1024x1024.375cf43181c4200c504a.png",
     "static/media/RobotoSlab_Bold.ttf": "./static/media/RobotoSlab_Bold.b4a6cff80bc429d3416d.ttf",
     "static/media/RobotoSlab_Light.ttf": "./static/media/RobotoSlab_Light.6d68e46320e3d0f97a14.ttf",
     "static/media/RobotoSlab_Regular.ttf": "./static/media/RobotoSlab_Regular.7ce86de3a11228c75d5e.ttf",
@@ -23,7 +23,7 @@
     "index.html": "./index.html"
   },
   "entrypoints": [
-    "static/css/main.64c2a9b4.css",
-    "static/js/main.e64b3bf2.js"
+    "static/css/main.e3c09562.css",
+    "static/js/main.944ce275.js"
   ]
 }
