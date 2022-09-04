@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "./static/css/main.cb81f627.css",
-    "main.js": "./static/js/main.5d787356.js",
+    "main.js": "./static/js/main.735136a3.js",
     "static/js/261.42f144a2.chunk.js": "./static/js/261.42f144a2.chunk.js",
     "static/js/227.955e50ca.chunk.js": "./static/js/227.955e50ca.chunk.js",
     "static/js/27.29c07a8b.chunk.js": "./static/js/27.29c07a8b.chunk.js",
     "static/media/photo-1504788363733-507549153474.png": "./static/media/photo-1504788363733-507549153474.016257af06f308bc3778.png",
-    "static/media/VJB-105_Main_1024x1024.png": "./static/media/VJB-105_Main_1024x1024.f718e4586b4469cb04b7.png",
+    "static/media/gigachad.png": "./static/media/gigachad.622ae6cad1dbbb570211.png",
     "static/media/RobotoSlab_Bold.ttf": "./static/media/RobotoSlab_Bold.b4a6cff80bc429d3416d.ttf",
     "static/media/RobotoSlab_Light.ttf": "./static/media/RobotoSlab_Light.6d68e46320e3d0f97a14.ttf",
     "static/media/RobotoSlab_Regular.ttf": "./static/media/RobotoSlab_Regular.7ce86de3a11228c75d5e.ttf",
@@ -25,6 +25,6 @@
   },
   "entrypoints": [
     "static/css/main.cb81f627.css",
-    "static/js/main.5d787356.js"
+    "static/js/main.735136a3.js"
   ]
 }
