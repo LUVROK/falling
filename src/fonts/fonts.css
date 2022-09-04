@@ -21,3 +21,9 @@
     src: local('RobotoSlab_Thin'), url("./RobotoSlab_Thin.ttf") format('truetype');
     font-weight: normal;
 }
+
+@font-face {
+    font-family: 'TrovasRegular-rgGOy';
+    src: local('TrovasRegular-rgGOy'), url("./TrovasRegular-rgGOy.otf") format('truetype');
+    font-weight: normal;
+}

@@ -11,11 +11,11 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <Wallet>
       <App />
     </Wallet>
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 
 reportWebVitals();

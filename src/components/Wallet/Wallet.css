@@ -2,9 +2,11 @@
     position: relative;
     width: 100%;
     height: auto;
-    background: rgb(29,29,29);
+    height: 100vh;
+    /* background: rgb(29,29,29); */
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
   }
 
   .balance-info {
@@ -132,6 +134,7 @@
     visibility: hidden;
     transition: opacity 200ms ease, transform 200ms ease, visibility 200ms;
     font-family: 'DM Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: none;
 }
 
 .wallet-adapter-dropdown-list-active {
@@ -347,3 +350,36 @@
     color: #fff;
 }
   
+
+
+.app2Cont {
+    display: 'flex';
+    flex-direction: 'row';
+    align-items: 'center'; 
+    justify-content: 'center'; 
+    margin-right: '20px';
+    margin-top: '20px'; 
+    position: 'absolute';
+    right: 0;
+    top: 0;
+    font-size: '36px';
+    z-index: '9999' 
+}
+.contentMain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    height: 100vh;
+    width: 100%;
+}
+
+@media screen and (max-width: 740px) {
+    .app2Cont {
+        margin-right: 0px !important;
+    }
+}

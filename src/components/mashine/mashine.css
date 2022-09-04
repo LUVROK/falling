@@ -1,0 +1,16 @@
+.Mashine {
+    position: absolute;
+    top: 10vh;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Mashine .MashineImg {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.95;
+    /* mix-blend-mode: color; */
+}

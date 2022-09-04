@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Sarpanch:900');
+
+$rotationAmt: 0;
+
+h2 {
+    transform: skew(#{$rotationAmt}deg) rotate(#{$rotationAmt}deg);
+    grid-area: text;
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 20vmin;
+    margin: 0;
+    padding: 30px;
+    color: #ff9100;
+    text-shadow: 1vmin 1vmin 0 #e7e310, -1vmin -1vmin 0 #c9241b;
+    cursor: pointer;
+}
+.big_title{
+    position: relative;
+    height: 181px;
+    width: 100%;
+    font-family: 'TrovasRegular-rgGOy'; 
+    font-size: 164px;
+    font-weight: 400;
+    line-height: 197px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 1);
+    // text-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    // text-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Kanit:900');
+
+$LIGHTING_FLOOR: 1;
+$LIGHTING_CEIL: 2;
+$LIGHTING_FLAT: 3;
+
+@mixin text3d(
+  $primary, 
+  $depth: 5, 
+  $shadowsteps: 5, 
+  $shadowincrementer: 3px, 
+  $shadowopacity: .5, 
+  $primaryshadowcolour: #000, 
+  $lighting: $LIGHTING_CEIL) {
+  $predefinedShadows: (
+    0 0 5px rgba($primaryshadowcolour, .05), 
+    0 -1px 3px rgba($primaryshadowcolour, .2), 
+    0 3px 5px rgba($primaryshadowcolour, .2));
+  $value: ();
+  @for $i from 1 through $depth {
+    $num: $i + px;
+    $hueadjust: $i;
+    @if($lighting == $LIGHTING_FLOOR) {
+      $hueadjust: ($i * 2 - $depth - 5) * 1%;
+    } @else if($lighting == $LIGHTING_CEIL) {
+      $hueadjust: -($i*2 + $depth - 10) * 1%;
+    } @else if($lighting == $LIGHTING_FLAT) {
+      $hueadjust: -$depth * 1%;
+    }
+    $colour: adjust-color($primary, $lightness: $hueadjust);
+    $theShadow: 0 $num 0 $colour;
+    $value: append($value, $theShadow, comma);
+  }
+  
+  @for $i from 1 through $shadowsteps {
+    @if($i >= length($predefinedShadows)) {
+      $dist: $i * $shadowincrementer;
+      $value: append($value, 0 $dist $dist rgba($primaryshadowcolour, $shadowopacity));
+    } @else {
+      $value: append($value, nth($predefinedShadows, $i));
+    }
+  }
+  
+  text-shadow: $value;
+}
+
+$primarycolour: rgb(255, 155, 41);
+
+body {
+  background: $primarycolour;
+}
+
+.contentMain h1 {
+  // color: #FFF;
+  // font-size: 60px;
+  line-height:1em;
+  // margin: 0;
+  // position: absolute;
+  // text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  
+  @include text3d(
+    adjust-color($primarycolour, $lightness: -10%), 
+    $depth: 8, 
+    $primaryshadowcolour: adjust-color($primarycolour, $lightness: -10%, $saturation: +20%),
+    $shadowopacity: .3);
+}
+
+@media only screen and (max-width: 1133px) {
+    .big_title{
+        height: 150px;
+        // width: 805px;
+        font-size: 128px;
+        font-weight: 400;
+        line-height: 154px;
+    }
+    .contentMain h1 {
+        @include text3d(
+          adjust-color($primarycolour, $lightness: -10%), 
+          $depth: 6, 
+          $primaryshadowcolour: adjust-color($primarycolour, $lightness: -10%, $saturation: +20%),
+          $shadowopacity: .3);
+    }
+}
+@media only screen and (max-width: 990px) {
+    .big_title{
+        height: 118px;
+        /* width: 363px; */
+        /* left: 14px; */
+        // top: 109px;
+        font-size: 108px;
+        font-weight: 400;
+        line-height: 70px;
+        text-align: center;
+    }
+    .contentMain h1 {
+        @include text3d(
+          adjust-color($primarycolour, $lightness: -10%), 
+          $depth: 4, 
+          $primaryshadowcolour: adjust-color($primarycolour, $lightness: -10%, $saturation: +20%),
+          $shadowopacity: .3);
+    }
+}
+@media only screen and (max-width: 750px) {
+    .big_title {
+        font-size: 88px;
+        height: 98px;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .balance {
+        padding: 0px 10px; 
+    }
+    .big_title {
+        font-size: 58px;
+        height: 68px;
+    }
+    .contentMain h1 {
+        @include text3d(
+          adjust-color($primarycolour, $lightness: -10%), 
+          $depth: 2, 
+          $primaryshadowcolour: adjust-color($primarycolour, $lightness: -10%, $saturation: +20%),
+          $shadowopacity: .3);
+    }
+}
+@media screen and (min-height: 290px) and (max-width: 400px) {
+    .big_title{
+        font-size: 52px;
+    }
+}
+@media screen and (min-height: 690px) and (max-width: 440px) {
+    .big_title{
+        font-size: 58px;
+    }
+}
+
+@media screen and (max-height: 830px) {
+  .box {
+    transform: scale(0.9);
+  }
+}
+@media screen and (max-height: 730px) {
+  .box {
+    transform: scale(0.7);
+  }
+}
+@media screen and (max-height: 630px) {
+  .box {
+    transform: scale(0.6);
+  }
+}
+@media screen and (max-height: 530px) {
+  .box {
+    transform: scale(0.5);
+  }
+}
+@media screen and (max-height: 430px) {
+  .box {
+    transform: scale(0.4);
+  }
+}
+
+.balance {
+    position: relative;
+    font-size: 18px;
+    font-family: 'RobotoSlab_Regular';
+    padding: 0px 20px; 
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+.MintBtn {
+    width: auto;
+    height: auto;
+    padding: 10px 52px;
+    border-radius: 15px;
+    background-color: rgb(255, 155, 41);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'TrovasRegular-rgGOy'; 
+    font-size: 42px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+
+
+
+.primer {
+
+}
+
+.box {
+	width: auto;
+	height: auto;
+	box-sizing: border-box;
+	padding: 13px;
+	position: absolute;
+	overflow: hidden;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.box::before {
+	content: '';
+	position: absolute;
+	width: 250%;
+	height: 250%;
+    top: -40px;
+	background: repeating-linear-gradient(
+			white 0%,
+			white 8px,
+			rgb(134, 89, 37) 8px,
+			rgb(134, 89, 37) 16px,
+			white 16px,
+			white 24px,
+			rgb(134, 89, 37) 24px,
+			rgb(134, 89, 37) 32px);
+	transform: translateX(-30%) translateY(-20%) rotate(-45deg);
+	animation: animate 20s linear infinite;
+}
+
+.box .content {
+	position: relative;
+	background-color: white;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 16px 47px 12px 47px;
+	text-align: center;
+	font-family: sans-serif;
+	z-index: 2;
+}
+
+.box,
+.box .content {
+	box-shadow: 0 0 2px rgb(255, 155, 41),
+				0 0 5px rgba(0, 0, 0, 1),
+				inset 0 0 15px rgba(0, 0, 0, 1);
+	border-radius: 10px;
+  transition: 1s;
+}
+.box,
+.box .content:hover {
+	box-shadow: 0 0 2px rgb(255, 155, 41),
+				0 0 5px rgba(0, 0, 0, 1),
+				inset 0 0 5px rgba(0, 0, 0, 1);
+	border-radius: 20px;
+}
+
+.box .content .primer {
+	color: rgb(255, 155, 41);
+    font-family: 'TrovasRegular-rgGOy'; 
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.box .content p {
+	color: dimgray;
+}
+
+.thereAre {
+  color: white;
+  position: relative;
+  top: 50vh;
+}
+
+@keyframes animate {
+	from {
+		background-position: 0;
+	}
+
+	to {
+		background-position: 0 450px;
+	}
+}
