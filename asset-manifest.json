@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "./static/css/main.43d19c47.css",
-    "main.js": "./static/js/main.add81e25.js",
+    "main.css": "./static/css/main.2568301f.css",
+    "main.js": "./static/js/main.21e5c72b.js",
     "static/js/261.42f144a2.chunk.js": "./static/js/261.42f144a2.chunk.js",
     "static/js/227.955e50ca.chunk.js": "./static/js/227.955e50ca.chunk.js",
     "static/js/27.29c07a8b.chunk.js": "./static/js/27.29c07a8b.chunk.js",
     "static/media/photo-1504788363733-507549153474.png": "./static/media/photo-1504788363733-507549153474.016257af06f308bc3778.png",
-    "static/media/gigachad.png": "./static/media/gigachad.622ae6cad1dbbb570211.png",
+    "static/media/gigachad.png": "./static/media/gigachad.95674025c6923263d7d1.png",
     "static/media/RobotoSlab_Bold.ttf": "./static/media/RobotoSlab_Bold.b4a6cff80bc429d3416d.ttf",
     "static/media/RobotoSlab_Light.ttf": "./static/media/RobotoSlab_Light.6d68e46320e3d0f97a14.ttf",
     "static/media/RobotoSlab_Regular.ttf": "./static/media/RobotoSlab_Regular.7ce86de3a11228c75d5e.ttf",
@@ -24,7 +24,7 @@
     "index.html": "./index.html"
   },
   "entrypoints": [
-    "static/css/main.43d19c47.css",
-    "static/js/main.add81e25.js"
+    "static/css/main.2568301f.css",
+    "static/js/main.21e5c72b.js"
   ]
 }
